@@ -24,6 +24,9 @@ header nav a, footer nav a{
   font-weight: 600;
   transition: .3s;
 }
+h1,p{
+  margin: 0;
+}
 header nav a:hover, footer nav a:hover{
   transition: .3s;
   color: #859F3D;
