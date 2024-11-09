@@ -1,0 +1,79 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Courier New;
+}
+header,footer{
+  background-color:#1A1A19;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+nav{
+  display: flex;
+  gap: 40px;
+}
+header nav a, footer nav a{
+  color: white;
+  font-weight: 600;
+  transition: .3s;
+}
+header nav a:hover, footer nav a:hover{
+  transition: .3s;
+  color: #859F3D;
+  border-bottom: 2px solid #859F3D;
+}
+.logo img{
+  width: 150px;
+}
+main{
+  padding: 100px 0;
+  position: relative;
+  background-color: #F6FCDF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.person{
+  position: sticky;
+  border: 1px solid white;
+  top: 10px;
+  max-width: max-content;
+  margin: 0 auto;
+  background-color: #859F3D;
+  border-radius: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.container{
+  padding:  100px;
+}
+a{
+  text-decoration: none;
+}
+
+.person_info{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h1{
+  font-size: 52px;
+  font-weight: 600;
+  }
+  p{
+    font-size: 20px;
+ 
+  }
+}
+.person-image{
+  img{
+    width: 300px;
+  }
+}
