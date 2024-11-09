@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding: 0;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -64,11 +68,11 @@ a{
   flex-direction: column;
   gap: 20px;
   h1{
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 600;
   }
   p{
-    font-size: 20px;
+    font-size: 18px;
  
   }
 }
